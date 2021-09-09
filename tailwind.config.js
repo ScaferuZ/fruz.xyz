@@ -7,6 +7,12 @@ module.exports = {
       fontFamily: {
         Playfair: "Playfair Display",
       },
+      textColor: {
+        primary: "#1F1F1F",
+      },
+      backgroundColor: (theme) => ({
+        primary: "#1F1F1F",
+      }),
     },
   },
   variants: {
